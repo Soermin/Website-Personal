@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josenfin Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(waa.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nama {
+  color: white;
+  font-weight: 800;
+  font-size: 2em;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.collapse ul li a {
+  color: white;
+
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.5s;
+}
+
+.collapse ul li {
+  padding-right: 50px;
+}
+
+.collapse ul li a:hover {
+  color: #f90;
+  transform: scale(1.1);
+}
+
+.btn {
+  background-color: #f90;
+  color: white;
+  text-decoration: none;
+
+  font-weight: bolt;
+
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+
+div h1 {
+  color: white;
+  margin: 5px 0px 5px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+div h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+span {
+  color: #f90;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+
+.about img {
+  height: auto;
+  width: 250px;
+}
+
+.Aboutme {
+  width: 350px;
+}
+
+.Aboutme h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+
+.Aboutme h5 {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 45px;
+}
+
+button {
+  background-color: #f90;
+  color: white;
+  text-decoration: none;
+
+  font-weight: bolt;
+
+  transition: transform 0.5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.service {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #000000;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 200px;
+}
+
+.service .row .card {
+  height: 365px;
+  width: 350px;
+  padding: 20px 20px;
+  background: #191919;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.service .row .card h5 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+
+.service .row .card i {
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.service .row .card p {
+  color: white;
+}
+
+.judul h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+
+.contact {
+  width: 100%;
+  height: 200px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact p {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+.contact .button2 {
+  background-color: #f90;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: 0.4s;
+  padding-bottom: 10px;
+}
+
+.contact .button2:hover {
+  background-color: transparent;
+  border: 2px solid #f90;
+  cursor: pointer;
+}
+
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 40%;
+  padding-right: 40%;
+  background-color: #191919;
+  color: white;
+  font-size: 1em;
+}
